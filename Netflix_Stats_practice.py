@@ -2,9 +2,9 @@ import pandas as pd
 
 #Load the dataset
 
-netflix_data = pd.read_csv('/Users/hakunamatata/Documents/Nivi/netflix_titles.csv')
+netflix_data = pd.read_csv('/Users/<>/Documents/Nivi/netflix_titles.csv')
 
-"""
+
 #Shape & Size
 
 print("Dataset shape:",netflix_data.shape)
@@ -65,6 +65,3 @@ print("Total number of TV shows:",len(netflix_data[netflix_data['type']=='TV Sho
 #Sorting data
 print("Top 5 most recent movies:",netflix_data[netflix_data['type']=='Movie'].sort_values(by='release_year',ascending=False).head())
 print("Top 5 oldest TV shows:",netflix_data[netflix_data['type']=='TV Show'].sort_values(by='release_year',ascending=True).head())
-"""
-
-print(netflix_data[netflix_data['type']=='Movie'].sort_values())
