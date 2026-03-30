@@ -3,7 +3,7 @@ import pandas as pd
 #Load the dataset
 
 netflix_data = pd.read_csv('/Users/<>/Documents/Nivi/netflix_titles.csv')
-
+#Download file : https://www.kaggle.com/datasets/shivamb/netflix-shows/data
 
 #Shape & Size
 
